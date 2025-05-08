@@ -1,0 +1,205 @@
+main{
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color:rgb(217, 192, 239); */
+  background: url('purple img.jpeg');
+  background-size:contain;
+  /* background-repeat:round; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  margin: 20px auto;
+}
+
+h4{
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  /* color: rgba(137, 43, 226, 0.845); */
+  color: rgb(217, 183, 225);
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  box-shadow:0 0.5px 0px 0px rgba(211, 68, 194)  ;
+}
+#DDiv{
+  background-color: aliceblue;
+  margin: 0 auto;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  
+}
+#s{
+  border-radius: 12px 0 0 12px ;
+  padding: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+#s:hover{
+  color: rgb(102, 6, 134);
+  border: 0.5px solid rgb(3, 3, 35) ;
+}
+
+#search-bar {
+  /* width: 60%; */
+  /* margin: 0 auto; */
+  text-align: center;
+  border-radius:0 12px  12px 0;
+  padding: 5px;
+  border-style: none;
+  
+}
+/* width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 12px;
+  padding: 5px;
+  border-style: none;
+   */
+
+#main-div{
+  /* background-color: rgba(137, 43, 226, 0.845); */
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  padding: 10px;
+  color:  rgb(243, 238, 244);
+}
+
+#contry-name{
+  text-align: center;
+  font-family:'Lucida Sans';
+  font-weight: 200;
+  font-size: 30px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgb(243, 238, 244);
+  box-shadow: inset 0px -1px 4px 0px rgba(211, 68, 194);
+  border-radius: 36px;
+}
+#main-div #D{
+  text-align: center;
+  font-size: 55px;
+  /* background-color: azure; */
+  
+}
+#under-det{
+  /* background-color: antiquewhite; */
+  /* color: rgb(51, 44, 57); */
+  color: rgb(243, 238, 244);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+#condition{
+  /* color:brown; */
+  text-align: center;
+  padding: 10px;
+  font-size: larger;
+  
+}
+#under-det .h {
+  
+  font-size: larger;
+  text-align: center;
+  word-spacing: 110px;
+  padding: 5px;
+}
+/* #L-part{
+
+}
+#hf , #wf{
+  text-align:end
+} */
+.choises{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  display: block;
+  font-size:small;
+  text-align: center;
+  word-spacing: 90px;
+  margin:4px;
+  cursor: pointer;
+  color:  rgb(215, 202, 255);
+  /* padding-bottom: 5px; */
+}
+.choises span:hover{
+  color:rgb(244, 161, 244);
+  /* text-decoration:underline; */
+  border-bottom: 0.3px solid rgb(92, 10, 130);
+  font-size: 14px;
+}
+
+hr{
+  margin: 3px;
+  padding: 0.6px;
+  /* background-color: rgb(223, 149, 213); */
+  background-color: rgba(137, 43, 226, 0.845);;
+}
+
+#L-part{
+  display: flex;
+  /* scroll event */
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x:scroll;
+  height: 150px;
+}
+#L-part::-webkit-scrollbar{
+  display: none;
+}
+.details{
+  background-color: rgba(210, 78, 193, 0.363); 
+  width: 100px;
+  height: 100%;
+  margin: 3px;
+  border-radius: 18px;
+}
+.details .int , img{
+  display: flex;
+  margin: 5px auto;
+  max-width: 90%;
+  height: 28.2%;
+  text-align: center;
+}
+#details-img{
+  text-align: center;
+  min-width:  50px;
+  
+}
+.time-choise{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-style: none;
+  /* display:flex; */
+  background-color: #1c0808;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.degree-choise{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-style: none;
+  background-color: #1c0808;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+}
+small{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+}
+footer div a{
+  font-size:large;
+  margin: 0 10px;
+  color: blue;
+}
